@@ -162,18 +162,29 @@ header h2 span {
 /***** page 2 projects****/
 
 #projects {
-  background-color: #bdb7a8;
-  text-align: center;
+  overflow: hidden;
+  clear: both;
+  background-color: #efedee;
   margin: 0 auto;
-  padding: 120px;
+
+}
+#projects h1{
+  padding-top: 30px;
+  font-family: 'lora', serif;
+  text-align: center;
+  font-size: 35px;
+  color: grey;
+
 }
 #projects .third-width {
-  height:auto;
+  padding-top: 50px;
+  text-align: center;
   padding-left: 50px;
 }
-#project h2 {
+.third-width h2 {
+  padding-top: 30px;
+  font-weight: 400;
   font-family: 'lora', serif;
-  font-size: 30px;
-  line-height: 44px;
-  color: red;
+  font-size: 20px;
+  color: grey;
 }
